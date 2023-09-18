@@ -1,0 +1,124 @@
+.q,
+.what-are-the {
+  position: relative;
+  color: white;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: x-large;
+
+}
+
+.q1 {
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: x-large;
+}
+
+
+.what-are-the {
+  margin: 0;
+  flex: 1;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: purple;
+  color: white;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+
+}
+
+
+.author,
+.question {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.author {
+  border-radius: 4px;
+  background-color: purple;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 2xs;
+  padding-right: 5px;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+.question {
+  border-radius: 4px;
+  background-color: var(--color-purple-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 8xs;
+  justify-content: flex-start;
+  gap: 3xs;
+  background-color: purple;
+  border-radius: 4px;
+}
+
+.climate-change-is {
+  flex: 1;
+}
+
+.answer,
+.property-1default,
+.qa-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.answer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 3xs;
+  gap: 3xs;
+  color: black;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+
+.property-1default,
+.qa-card {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-xl);
+
+}
+
+.heading-tab {
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  border: 1px solid #ddd;
+  padding: var(--padding-xl) 0;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+
+}
+
+.cover-frame {
+  position: relative;
+  width: 100%;
+  padding: 0 381.5px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
